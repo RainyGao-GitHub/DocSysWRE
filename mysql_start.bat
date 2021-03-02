@@ -8,6 +8,8 @@ echo [DocSys]: Generate MySql Config
 
 set strOld=CURRENT_DIR
 set strNew=%CURRENT_DIR%
+set strNew=%strNew:\=/%
+
 set templateMyIniFile=%MYSQL_HOME%\template-my.ini
 set dstMyIniFile=%MYSQL_HOME%\bin\my.ini
 set templateCtlBatFile=%MYSQL_HOME%\template-ctl.bat
