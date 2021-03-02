@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [04/Aug/2020:21:30:12 +0800] "GET /DocSystem HTTP/1.1" 404 -
+0:0:0:0:0:0:0:1 - - [04/Aug/2020:21:33:26 +0800] "GET /DocSystem HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Aug/2020:21:33:26 +0800] "GET /DocSystem/ HTTP/1.1" 200 741
+0:0:0:0:0:0:0:1 - - [04/Aug/2020:21:33:26 +0800] "GET /DocSystem/web/index.html HTTP/1.1" 200 18550
+0:0:0:0:0:0:0:1 - - [04/Aug/2020:21:33:27 +0800] "GET /DocSystem/web/static/SmartWiki/favicon.ico HTTP/1.1" 200 2462
+0:0:0:0:0:0:0:1 - - [04/Aug/2020:21:33:27 +0800] "POST /DocSystem/User/getLoginUser.do HTTP/1.1" 200 56
+0:0:0:0:0:0:0:1 - - [04/Aug/2020:21:33:29 +0800] "POST /DocSystem/web/login.html HTTP/1.1" 200 7542
+0:0:0:0:0:0:0:1 - - [04/Aug/2020:21:33:29 +0800] "GET /DocSystem/web/js/md5.js?_=1596548007336 HTTP/1.1" 200 6856
+0:0:0:0:0:0:0:1 - - [04/Aug/2020:21:33:30 +0800] "POST /DocSystem/User/login.do HTTP/1.1" 200 253
+0:0:0:0:0:0:0:1 - - [04/Aug/2020:21:33:30 +0800] "POST /DocSystem/User/getLoginUser.do HTTP/1.1" 200 225

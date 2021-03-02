@@ -1,0 +1,10 @@
+10.141.124.93 - - [05/Jun/2020:09:19:52 +0800] "GET /DocSystem/web/static/pdfjs/build/pdf.js.map HTTP/1.1" 200 875914
+10.141.124.93 - - [05/Jun/2020:09:19:52 +0800] "GET /DocSystem/web/static/pdfjs/build/pdf.worker.js.map HTTP/1.1" 200 2657627
+10.141.124.93 - - [05/Jun/2020:15:46:48 +0800] "GET /DocSystem/web/projects.html HTTP/1.1" 200 13622
+10.141.124.93 - - [05/Jun/2020:15:46:49 +0800] "GET /DocSystem/web/static/styles/styles.css HTTP/1.1" 200 13819
+10.141.124.93 - - [05/Jun/2020:15:46:49 +0800] "GET /DocSystem/web/static/scripts/scripts.js HTTP/1.1" 200 20
+10.141.124.93 - - [05/Jun/2020:15:46:49 +0800] "GET /DocSystem/web/static/scripts/template.js HTTP/1.1" 200 5324
+10.141.124.93 - - [05/Jun/2020:15:46:49 +0800] "POST /DocSystem/User/getLoginUser.do HTTP/1.1" 200 56
+10.141.124.93 - - [05/Jun/2020:15:46:49 +0800] "POST /DocSystem/Repos/getDocSysConfig.do HTTP/1.1" 200 79
+10.141.124.93 - - [05/Jun/2020:15:46:49 +0800] "POST /DocSystem/web/login.html HTTP/1.1" 200 7333
+10.141.124.93 - - [05/Jun/2020:15:46:49 +0800] "GET /DocSystem/web/js/md5.js?_=1591343209058 HTTP/1.1" 200 6641

@@ -1,0 +1,175 @@
+十二月 29, 2020 9:28:08 下午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\docsys_win_2.01.88\docsys\tomcat\java\jre1.8.0_162\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows7Master;C:\Program Files\Java\jdk1.8.0_162\bin;C:\Program Files\Java\jdk1.8.0_162\jre\bin;C:\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\erl10.3\bin;RABBITMQ_SERVER%\sbin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.14\sbin;C:\Program Files\erl10.3\bin;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1\bin;;C:\Users\Administrator\AppData\Roaming\npm;C:\Python27;.
+十二月 29, 2020 9:28:09 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8100"]
+十二月 29, 2020 9:28:09 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8029"]
+十二月 29, 2020 9:28:09 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 644 ms
+十二月 29, 2020 9:28:09 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十二月 29, 2020 9:28:09 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.56
+十二月 29, 2020 9:28:09 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive D:\docsys_win_2.01.88\docsys\tomcat\webapps\DocSystem.war
+十二月 29, 2020 9:28:17 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(D:\docsys_win_2.01.88\docsys\tomcat\webapps\DocSystem\WEB-INF\lib\servlet-api-3.0-alpha-1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十二月 29, 2020 9:28:21 下午 org.apache.catalina.startup.ContextConfig processAnnotationsJar
+严重: Unable to process Jar entry [module-info.class] from Jar [jar:file:/D:/docsys_win_2.01.88/docsys/tomcat/webapps/DocSystem/WEB-INF/lib/jaxb-api-2.3.0.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:55)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:175)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:83)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2071)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1947)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1913)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1898)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1330)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:889)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:386)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5380)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1083)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1879)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+十二月 29, 2020 9:28:30 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive D:\docsys_win_2.01.88\docsys\tomcat\webapps\DocSystem.war has finished in 21,397 ms
+十二月 29, 2020 9:28:30 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\docsys_win_2.01.88\docsys\tomcat\webapps\docSys.ini
+十二月 29, 2020 9:28:30 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\docsys_win_2.01.88\docsys\tomcat\webapps\docSys.ini has finished in 45 ms
+十二月 29, 2020 9:28:30 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8100"]
+十二月 29, 2020 9:28:30 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8029"]
+十二月 29, 2020 9:28:30 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 21507 ms
+十二月 29, 2020 9:31:10 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8100"]
+十二月 29, 2020 9:31:15 下午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\docsys_win_2.01.88\docsys\tomcat\java\jre1.8.0_162\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows7Master;C:\Program Files\Java\jdk1.8.0_162\bin;C:\Program Files\Java\jdk1.8.0_162\jre\bin;C:\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\erl10.3\bin;RABBITMQ_SERVER%\sbin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.14\sbin;C:\Program Files\erl10.3\bin;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1\bin;;C:\Users\Administrator\AppData\Roaming\npm;C:\Python27;.
+十二月 29, 2020 9:31:16 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8100"]
+十二月 29, 2020 9:31:16 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8029"]
+十二月 29, 2020 9:31:16 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 541 ms
+十二月 29, 2020 9:31:16 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十二月 29, 2020 9:31:16 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.56
+十二月 29, 2020 9:31:16 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive D:\docsys_win_2.01.88\docsys\tomcat\webapps\DocSystem.war
+十二月 29, 2020 9:31:16 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(D:\docsys_win_2.01.88\docsys\tomcat\webapps\DocSystem\WEB-INF\lib\servlet-api-3.0-alpha-1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十二月 29, 2020 9:31:17 下午 org.apache.catalina.startup.ContextConfig processAnnotationsJar
+严重: Unable to process Jar entry [module-info.class] from Jar [jar:file:/D:/docsys_win_2.01.88/docsys/tomcat/webapps/DocSystem/WEB-INF/lib/jaxb-api-2.3.0.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:55)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:175)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:83)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2071)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1947)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1913)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1898)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1330)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:889)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:386)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5380)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1083)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1879)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+十二月 29, 2020 9:31:26 下午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive D:\docsys_win_2.01.88\docsys\tomcat\webapps\DocSystem.war has finished in 10,345 ms
+十二月 29, 2020 9:31:26 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\docsys_win_2.01.88\docsys\tomcat\webapps\docSys.ini
+十二月 29, 2020 9:31:26 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\docsys_win_2.01.88\docsys\tomcat\webapps\docSys.ini has finished in 41 ms
+十二月 29, 2020 9:31:26 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8100"]
+十二月 29, 2020 9:31:26 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8029"]
+十二月 29, 2020 9:31:26 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 10472 ms
+十二月 29, 2020 9:32:44 下午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\docsys_win_2.01.88\docsys\tomcat\java\jre1.8.0_162\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows7Master;C:\Program Files\Java\jdk1.8.0_162\bin;C:\Program Files\Java\jdk1.8.0_162\jre\bin;C:\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\erl10.3\bin;RABBITMQ_SERVER%\sbin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.14\sbin;C:\Program Files\erl10.3\bin;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1\bin;;C:\Users\Administrator\AppData\Roaming\npm;C:\Python27;.
+十二月 29, 2020 9:32:44 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8100"]
+十二月 29, 2020 9:32:44 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8029"]
+十二月 29, 2020 9:32:44 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 671 ms
+十二月 29, 2020 9:32:44 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十二月 29, 2020 9:32:44 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.56
+十二月 29, 2020 9:32:44 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\docsys_win_2.01.88\docsys\tomcat\webapps\docSys.ini
+十二月 29, 2020 9:32:44 下午 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [134] milliseconds.
+十二月 29, 2020 9:32:44 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\docsys_win_2.01.88\docsys\tomcat\webapps\docSys.ini has finished in 494 ms
+十二月 29, 2020 9:32:44 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\docsys_win_2.01.88\docsys\tomcat\webapps\DocSystem
+十二月 29, 2020 9:32:45 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(D:\docsys_win_2.01.88\docsys\tomcat\webapps\DocSystem\WEB-INF\lib\servlet-api-3.0-alpha-1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十二月 29, 2020 9:32:47 下午 org.apache.catalina.startup.ContextConfig processAnnotationsJar
+严重: Unable to process Jar entry [module-info.class] from Jar [jar:file:/D:/docsys_win_2.01.88/docsys/tomcat/webapps/DocSystem/WEB-INF/lib/jaxb-api-2.3.0.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:55)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:175)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:83)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2071)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1947)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1913)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1898)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1330)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:889)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:386)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5380)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1247)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1897)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+十二月 29, 2020 9:32:54 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\docsys_win_2.01.88\docsys\tomcat\webapps\DocSystem has finished in 10,019 ms
+十二月 29, 2020 9:32:54 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8100"]
+十二月 29, 2020 9:32:55 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8029"]
+十二月 29, 2020 9:32:55 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 10589 ms
